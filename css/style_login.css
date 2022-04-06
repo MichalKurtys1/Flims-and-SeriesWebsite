@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+body {
+    background-color: #2b3238;
+}
+.section {
+    position: relative;
+    background-color: rgb(15, 15, 15);
+    width: 340px;
+    height: 60px;
+    margin: 50px auto 0;
+}
+.bnt1{
+    display: block;
+    height: 60px;
+    width: 50%;
+    float: left;
+    background-color: rgb(15, 15, 15);
+    border: #0f1314 solid 2px;
+    border-bottom: none;
+    color: white;
+    font-size: 20px;
+}
+.bnt2{
+    display: block;
+    height: 60px;
+    width: 50%;
+    float: left;
+    background-color: rgb(24, 24, 24);
+    border: #0f1314 solid 2px;
+    border-bottom: none;
+    color: white;
+    font-size: 20px;
+}
+.wrapper {
+    position: absolute;
+    top: 60px;
+    background-color: rgb(15, 15, 15);
+    width: 340px;
+    border: #0f1314 solid 2px;
+    border-top: none;
+}
+.wrapper h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 10px;
+}
+label {
+    color: white;
+    width: 20%;
+    height: 20px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+input {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+}
+.submit{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 40px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    transition: .2s;
+}
+.submit:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+ .wrap {
+    position: absolute;
+    top: 60px;
+    background-color: rgb(15, 15, 15);
+    width: 340px;
+    border: #0f1314 solid 2px;
+    border-top: none;
+    visibility: hidden;
+}
+.wrap h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 10px;
+}  

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style_login.css">
+    <link rel="stylesheet" href="/css/menu.css">
+    <title>MK - Kinomania</title>
+</head>
+<body>
+    <div class="section">
+        <div class="choise"><button class="bnt1" id="bnt1" onclick= "Bnt1Function()">Logowanie</button></div>
+        <div class="choise"><button class="bnt2" id="bnt2" onclick= "Bnt2Function()" >Rejestracja</button></div>
+        
+        <div class="wrapper" id="login">
+            <h1>Zaloguj się</h1>
+            <form action="" class="clearfix">
+                <label for="">Login</label>
+                <input type="text">
+                <label for="">Hasło</label>
+                <input type="password">
+                <button class="submit" type="submit">Zaloguj</button>
+            </form>
+        </div>
+        <div class="wrap" id="rejestr">
+            <h1>Zarejestruj się</h1>
+            <form action="" class="clearfix">
+                <label for="">Login</label>
+                <input type="text">
+                <label for="">Hasło</label>
+                <input type="password">
+                <label for="">Powtórz&nbsp;hasło</label>
+                <input type="password">
+                <label for="">E-mail</label>
+                <input type="email">
+                <button class="submit" type="submit">Zarejestruj</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        function Bnt1Function() {
+            document.getElementById('login').style.visibility = 'visible'
+            document.getElementById('rejestr').style.visibility = 'hidden'
+            document.getElementById('bnt1').style.backgroundColor = 'rgb(15, 15, 15)'
+            document.getElementById('bnt2').style.backgroundColor = 'rgb(24, 24, 24)'
+        }
+        function Bnt2Function() {
+            document.getElementById('rejestr').style.visibility = 'visible'
+            document.getElementById('login').style.visibility = 'hidden'
+            document.getElementById('bnt1').style.backgroundColor = 'rgb(24, 24, 24)'
+            document.getElementById('bnt2').style.backgroundColor = 'rgb(15, 15, 15)'
+        }
+    </script>
+</body>
+</html>
